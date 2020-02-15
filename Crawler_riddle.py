@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup as bf
 import os.path
 import time
 
-f = open('/Users/huangfutian/Desktop/Riddle.txt', 'w+')
+f = open('/Users/****/Desktop/Riddle.txt', 'w+')
 for i in range(1,4):
     url = 'http://duanziwang.com/page/'+str(i) # 将i转换成str
     # 爬取前400页，观察>>>http://duanziwang.com/page/3/
